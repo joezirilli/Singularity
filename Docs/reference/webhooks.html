@@ -1,0 +1,900 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Webhooks · Singularity</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="slave-extras.html" />
+    
+    
+    <link rel="prev" href="database.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    About Singularity
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../about/how-it-works.html">
+            
+                <a href="../about/how-it-works.html">
+            
+                    
+                    How It Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../about/requests-and-deploys.html">
+            
+                <a href="../about/requests-and-deploys.html">
+            
+                    
+                    Requests and Deploys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../about/ui.html">
+            
+                <a href="../about/ui.html">
+            
+                    
+                    Singularity UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../about/adopters.html">
+            
+                <a href="../about/adopters.html">
+            
+                    
+                    Adopters
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Getting Started
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../getting-started/try-it-out.html">
+            
+                <a href="../getting-started/try-it-out.html">
+            
+                    
+                    Try It Out
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../getting-started/install.html">
+            
+                <a href="../getting-started/install.html">
+            
+                    
+                    Install
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../getting-started/basic-examples.html">
+            
+                <a href="../getting-started/basic-examples.html">
+            
+                    
+                    Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Developing
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../development/developing-with-docker.html">
+            
+                <a href="../development/developing-with-docker.html">
+            
+                    
+                    Developing Using Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../development/ui.html">
+            
+                <a href="../development/ui.html">
+            
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../development/load-balancer-integration.html">
+            
+                <a href="../development/load-balancer-integration.html">
+            
+                    
+                    Load Balancer Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../development/basepom.html">
+            
+                <a href="../development/basepom.html">
+            
+                    
+                    Basepom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../releases/">
+            
+                <a href="../releases/">
+            
+                    
+                    Releases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Feature Docs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../features/custom-ports.html">
+            
+                <a href="../features/custom-ports.html">
+            
+                    
+                    Choosing Custom Ports
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../features/expiring-actions.html">
+            
+                <a href="../features/expiring-actions.html">
+            
+                    
+                    Expiring Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../features/shell-commands.html">
+            
+                <a href="../features/shell-commands.html">
+            
+                    
+                    Shell Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../features/task-search.html">
+            
+                <a href="../features/task-search.html">
+            
+                    
+                    Task Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../features/incremental-deploys.html">
+            
+                <a href="../features/incremental-deploys.html">
+            
+                    
+                    Incremental Deploys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../features/disaster-detection.html">
+            
+                <a href="../features/disaster-detection.html">
+            
+                    
+                    Disaster Detection & Disabled Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Reference
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="configuration.html">
+            
+                <a href="configuration.html">
+            
+                    
+                    Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="container-options.html">
+            
+                <a href="container-options.html">
+            
+                    
+                    Container Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="database.html">
+            
+                <a href="database.html">
+            
+                    
+                    Database
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7.4" data-path="webhooks.html">
+            
+                <a href="webhooks.html">
+            
+                    
+                    Webhooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="slave-extras.html">
+            
+                <a href="slave-extras.html">
+            
+                    
+                    Slave Extras
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="deploy-defaults.html">
+            
+                <a href="deploy-defaults.html">
+            
+                    
+                    Deploy Defaults
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="healthchecks.html">
+            
+                <a href="healthchecks.html">
+            
+                    
+                    Health Checks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="apidocs/api-index.html">
+            
+                <a href="apidocs/api-index.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.8.1" data-path="apidocs/api-sandbox.html">
+            
+                <a href="apidocs/api-sandbox.html">
+            
+                    
+                    /api/sandbox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.2" data-path="apidocs/api-slaves.html">
+            
+                <a href="apidocs/api-slaves.html">
+            
+                    
+                    /api/slaves
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.3" data-path="apidocs/api-history.html">
+            
+                <a href="apidocs/api-history.html">
+            
+                    
+                    /api/history
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.4" data-path="apidocs/api-state.html">
+            
+                <a href="apidocs/api-state.html">
+            
+                    
+                    /api/state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.5" data-path="apidocs/api-logs.html">
+            
+                <a href="apidocs/api-logs.html">
+            
+                    
+                    /api/logs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.6" data-path="apidocs/api-tasks.html">
+            
+                <a href="apidocs/api-tasks.html">
+            
+                    
+                    /api/tasks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.7" data-path="apidocs/api-test.html">
+            
+                <a href="apidocs/api-test.html">
+            
+                    
+                    /api/test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.8" data-path="apidocs/api-webhooks.html">
+            
+                <a href="apidocs/api-webhooks.html">
+            
+                    
+                    /api/webhooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.9" data-path="apidocs/api-racks.html">
+            
+                <a href="apidocs/api-racks.html">
+            
+                    
+                    /api/racks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.10" data-path="apidocs/api-requests.html">
+            
+                <a href="apidocs/api-requests.html">
+            
+                    
+                    /api/requests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.11" data-path="apidocs/api-groups.html">
+            
+                <a href="apidocs/api-groups.html">
+            
+                    
+                    /api/groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.12" data-path="apidocs/api-deploys.html">
+            
+                <a href="apidocs/api-deploys.html">
+            
+                    
+                    /api/deploys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.13" data-path="apidocs/api-disasters.html">
+            
+                <a href="apidocs/api-disasters.html">
+            
+                    
+                    /api/disasters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.14" data-path="apidocs/api-priority.html">
+            
+                <a href="apidocs/api-priority.html">
+            
+                    
+                    /api/priority
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.15" data-path="apidocs/models.html">
+            
+                <a href="apidocs/models.html">
+            
+                    
+                    Models
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Webhooks</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="singularity-webhooks">Singularity Webhooks</h2>
+<p>Singularity provides webhooks for changes to the three core types of objects in Singularity: requests, deploys, and tasks.</p>
+<p>Webhooks are managed via the <a href="apidocs/api-webhooks.html">API</a> and a separate webhook should be added separately in order to receive updates about all three object types.</p>
+<h3 id="adding-a-webhook">Adding a Webhook</h3>
+<p>In order to create a new Webhook, post the json for the <a href="apidocs/models.html#model-SingularityWebhook">SingularityWebhook</a> to the <a href="apidocs/api-webhooks.html#post-apiwebhooks">webhook endpoint</a>.</p>
+<p>For example, to receive request updates, send the following json: (create a file webhook.json with your own requestb.in for testing!)</p>
+<pre><code class="lang-json">{
+    &quot;id&quot;: &quot;test-webhook&quot;,
+    &quot;uri&quot;: &quot;http://requestb.in/1lw85s51&quot;,
+    &quot;type&quot;: &quot;REQUEST&quot;
+}
+</code></pre>
+<p>Then post that to the webhooks endpoint:</p>
+<pre><code class="lang-sh">curl -i -X POST -H &quot;Content-Type: application/json&quot; -d@webhook.json \
+http://singularityhostname/singularity/api/webhooks
+</code></pre>
+<p>This webhook will start to receive events anytime a <a href="apidocs/models.html#model-SingularityRequest">Request</a> is created, modified, or deleted.</p>
+<h3 id="webhook-types">Webhook Types</h3>
+<h4 id="request">Request</h4>
+<p>Request webhooks are sent every time a request is created, deleted, or updated - as well as when its state changes (because it is paused or enters cooldown.)</p>
+<p>Request webhooks are in the format of <a href="apidocs/models.html#model-singularityrequesthistory">SingularityRequestHistory</a> objects. </p>
+<h4 id="deploy">Deploy</h4>
+<p>Deploy webhooks are sent when deploys are started and finished (fail or succeed.)</p>
+<p>Deploy webhooks are in the format of <a href="apidocs/models.html#model-SingularityDeployUpdate">SingularityDeployUpdate</a> objects.</p>
+<h4 id="task">Task</h4>
+<p>Task webhooks are sent when tasks are launched by Singularity, killed with by Singularity users, and on all task updates recieved from Mesos.</p>
+<p>Task webhooks are in the format of <a href="apidocs/models.html#model-SingularityTaskHistoryUpdate">SingularityTaskHistoryUpdate</a> objects.</p>
+<h3 id="webhook-notes">Webhook notes</h3>
+<ul>
+<li>Webhooks are only considered successful if the response code to the webhook is between 200 and 299 inclusive.</li>
+<li>Webhooks will be delivered every 10 seconds (checkWebhooksEveryMillis) </li>
+<li>Webhooks will be deleted if they fail to deliver and there are more than 50 in the queue (maxQueuedUpdatesPerWebhook)</li>
+<li>Webhooks will be deleted if they fail to deliver after 7 days (deleteUndeliverableWebhooksAfterHours)</li>
+<li>For debugging purposes, queued webhook updates can be retrieved from the <a href="apidocs/api-webhooks.html#get-apiwebhooksrequestwebhookid">API</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="database.html" class="navigation navigation-prev " aria-label="Previous page: Database">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="slave-extras.html" class="navigation navigation-next " aria-label="Next page: Slave Extras">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Webhooks","level":"1.7.4","depth":2,"next":{"title":"Slave Extras","level":"1.7.5","depth":2,"path":"Docs/reference/slave-extras.md","ref":"Docs/reference/slave-extras.md","articles":[]},"previous":{"title":"Database","level":"1.7.3","depth":2,"path":"Docs/reference/database.md","ref":"Docs/reference/database.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","-sharing","-livereload","-highlight","copy-code-button"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/HubSpot/Singularity"},"copy-code-button":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"fontsettings":{"family":"sans","size":2,"theme":"white"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"releases":["0.14.0","0.13.0","0.12.0","0.11.0","0.10.1","0.10.0","0.9.0","0.8.0","0.7.1","0.7.0","0.6.2","0.6.1","0.6.0","0.5.0","0.4.11","0.4.10","0.4.9","0.4.8","0.4.7","0.4.6","0.4.5"]},"title":"Singularity","links":{"home":null,"about":false,"issues":"https://github.com/HubSpot/Singularity/issues","contribute":"https://github.com/HubSpot/Singularity"},"gitbook":"*"},"file":{"path":"Docs/reference/webhooks.md","mtime":"2017-02-08T15:59:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-13T18:37:17.759Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

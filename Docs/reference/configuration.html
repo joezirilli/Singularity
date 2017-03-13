@@ -1,0 +1,2021 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Configuration · Singularity</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="container-options.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    About Singularity
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../about/how-it-works.html">
+            
+                <a href="../about/how-it-works.html">
+            
+                    
+                    How It Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../about/requests-and-deploys.html">
+            
+                <a href="../about/requests-and-deploys.html">
+            
+                    
+                    Requests and Deploys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../about/ui.html">
+            
+                <a href="../about/ui.html">
+            
+                    
+                    Singularity UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../about/adopters.html">
+            
+                <a href="../about/adopters.html">
+            
+                    
+                    Adopters
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Getting Started
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../getting-started/try-it-out.html">
+            
+                <a href="../getting-started/try-it-out.html">
+            
+                    
+                    Try It Out
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../getting-started/install.html">
+            
+                <a href="../getting-started/install.html">
+            
+                    
+                    Install
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../getting-started/basic-examples.html">
+            
+                <a href="../getting-started/basic-examples.html">
+            
+                    
+                    Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Developing
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../development/developing-with-docker.html">
+            
+                <a href="../development/developing-with-docker.html">
+            
+                    
+                    Developing Using Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../development/ui.html">
+            
+                <a href="../development/ui.html">
+            
+                    
+                    UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../development/load-balancer-integration.html">
+            
+                <a href="../development/load-balancer-integration.html">
+            
+                    
+                    Load Balancer Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../development/basepom.html">
+            
+                <a href="../development/basepom.html">
+            
+                    
+                    Basepom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../releases/">
+            
+                <a href="../releases/">
+            
+                    
+                    Releases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Feature Docs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../features/custom-ports.html">
+            
+                <a href="../features/custom-ports.html">
+            
+                    
+                    Choosing Custom Ports
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../features/expiring-actions.html">
+            
+                <a href="../features/expiring-actions.html">
+            
+                    
+                    Expiring Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../features/shell-commands.html">
+            
+                <a href="../features/shell-commands.html">
+            
+                    
+                    Shell Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../features/task-search.html">
+            
+                <a href="../features/task-search.html">
+            
+                    
+                    Task Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../features/incremental-deploys.html">
+            
+                <a href="../features/incremental-deploys.html">
+            
+                    
+                    Incremental Deploys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../features/disaster-detection.html">
+            
+                <a href="../features/disaster-detection.html">
+            
+                    
+                    Disaster Detection & Disabled Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Reference
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.7.1" data-path="configuration.html">
+            
+                <a href="configuration.html">
+            
+                    
+                    Configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="container-options.html">
+            
+                <a href="container-options.html">
+            
+                    
+                    Container Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="database.html">
+            
+                <a href="database.html">
+            
+                    
+                    Database
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="webhooks.html">
+            
+                <a href="webhooks.html">
+            
+                    
+                    Webhooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="slave-extras.html">
+            
+                <a href="slave-extras.html">
+            
+                    
+                    Slave Extras
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="deploy-defaults.html">
+            
+                <a href="deploy-defaults.html">
+            
+                    
+                    Deploy Defaults
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="healthchecks.html">
+            
+                <a href="healthchecks.html">
+            
+                    
+                    Health Checks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="apidocs/api-index.html">
+            
+                <a href="apidocs/api-index.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.8.1" data-path="apidocs/api-sandbox.html">
+            
+                <a href="apidocs/api-sandbox.html">
+            
+                    
+                    /api/sandbox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.2" data-path="apidocs/api-slaves.html">
+            
+                <a href="apidocs/api-slaves.html">
+            
+                    
+                    /api/slaves
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.3" data-path="apidocs/api-history.html">
+            
+                <a href="apidocs/api-history.html">
+            
+                    
+                    /api/history
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.4" data-path="apidocs/api-state.html">
+            
+                <a href="apidocs/api-state.html">
+            
+                    
+                    /api/state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.5" data-path="apidocs/api-logs.html">
+            
+                <a href="apidocs/api-logs.html">
+            
+                    
+                    /api/logs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.6" data-path="apidocs/api-tasks.html">
+            
+                <a href="apidocs/api-tasks.html">
+            
+                    
+                    /api/tasks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.7" data-path="apidocs/api-test.html">
+            
+                <a href="apidocs/api-test.html">
+            
+                    
+                    /api/test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.8" data-path="apidocs/api-webhooks.html">
+            
+                <a href="apidocs/api-webhooks.html">
+            
+                    
+                    /api/webhooks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.9" data-path="apidocs/api-racks.html">
+            
+                <a href="apidocs/api-racks.html">
+            
+                    
+                    /api/racks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.10" data-path="apidocs/api-requests.html">
+            
+                <a href="apidocs/api-requests.html">
+            
+                    
+                    /api/requests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.11" data-path="apidocs/api-groups.html">
+            
+                <a href="apidocs/api-groups.html">
+            
+                    
+                    /api/groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.12" data-path="apidocs/api-deploys.html">
+            
+                <a href="apidocs/api-deploys.html">
+            
+                    
+                    /api/deploys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.13" data-path="apidocs/api-disasters.html">
+            
+                <a href="apidocs/api-disasters.html">
+            
+                    
+                    /api/disasters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.14" data-path="apidocs/api-priority.html">
+            
+                <a href="apidocs/api-priority.html">
+            
+                    
+                    /api/priority
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8.15" data-path="apidocs/models.html">
+            
+                <a href="apidocs/models.html">
+            
+                    
+                    Models
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Configuration</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="singularity-configuration">Singularity Configuration</h1>
+<p>Singularity (Service) is configured by DropWizard via a YAML file referenced on the command line. Top-level configuration elements reside at the root of the configuration file alongside <a href="https://dropwizard.github.io/dropwizard/manual/configuration.html" target="_blank">DropWizard configuration</a>. </p>
+<ul>
+<li><a href="#root-configuration">SingularityService Configuration</a><ul>
+<li><a href="#root-configuration">Root Configuration</a><ul>
+<li><a href="#common-configuration">Common Configuration</a><ul>
+<li><a href="#general">General</a></li>
+<li><a href="#healthchecks-and-new-task-checks">Healthchecks and New Task Checks</a></li>
+<li><a href="#limits">Limits</a></li>
+<li><a href="#cooldown">Cooldown</a></li>
+<li><a href="#load-balancer-api">Load Balancer API</a></li>
+<li><a href="#user-interface">User Interface</a></li>
+</ul>
+</li>
+<li><a href="#internal-scheduler-configuration">Internal Scheduler Configuration</a><ul>
+<li><a href="#pollers">Pollers</a></li>
+<li><a href="#mesos">Mesos</a></li>
+<li><a href="#thread-pools">Thread Pools</a></li>
+<li><a href="#operational">Operational</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#mesos-configuration">Mesos Configuration</a><ul>
+<li><a href="#framework">Framework</a></li>
+<li><a href="#resource-limits">Resource Limits</a></li>
+<li><a href="#racks">Racks</a></li>
+<li><a href="#slaves">Slaves</a></li>
+</ul>
+</li>
+<li><a href="#network-configuration">Network Configuration</a></li>
+<li><a href="#database">Database</a><ul>
+<li><a href="#history-purging">History Purging</a></li>
+</ul>
+</li>
+<li><a href="#s3">S3</a></li>
+<li><a href="#sentry">Sentry</a></li>
+<li><a href="#smtp">Email/SMTP</a></li>
+<li><a href="#ui-configuration">UI Configuration</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="root-configuration">Root Configuration</h2>
+<h3 id="common-configuration">Common Configuration</h3>
+<p>These are settings that are more likely to be altered.</p>
+<h4 id="general">General</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>allowRequestsWithoutOwners</td>
+<td>true</td>
+<td>If false, submitting a request without at least one owner will return a 400</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>commonHostnameSuffixToOmit</td>
+<td>null</td>
+<td>If specified, will remove this hostname suffix from all taskIds</td>
+<td>string</td>
+</tr>
+<tr>
+<td>defaultSlavePlacement</td>
+<td>GREEDY</td>
+<td>See <a href="../about/how-it-works.html#user-content-placement">Slave Placement</a></td>
+<td>enum / string [GREEDY, OPTIMISTIC, SEPARATE (deprecated), SEPARATE_BY_DEPLOY, SEPARATE_BY_REQUEST]</td>
+</tr>
+<tr>
+<td>defaultValueForKillTasksOfPausedRequests</td>
+<td>true</td>
+<td>When a task is paused, the API allows for the tasks of that request to optionally not be killed. If that parameter is not set in the pause request, this value is used</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>deltaAfterWhichTasksAreLateMillis</td>
+<td>30000 (30 seconds)</td>
+<td>The amount of time after a task&apos;s schedule time that Singularity will classify it (in state API and dashboard) as a late task</td>
+<td>long</td>
+</tr>
+<tr>
+<td>deployHealthyBySeconds</td>
+<td>120</td>
+<td>Default amount of time to allow pending deploys to run for before transitioning them into active deploys. If more than this time passes before a deploy can be considered healthy (all of its tasks either make it to TASK_RUNNING or pass healthchecks), then the deploy will be rejected</td>
+<td>long</td>
+</tr>
+<tr>
+<td>killNonLongRunningTasksInCleanupAfterSeconds</td>
+<td>86400 (1 day)</td>
+<td>Kills scheduled and one-off tasks after this amount of time if they have been scheduled for cleaning (a new deploy succeeds, the underlying slave is decomissioned)</td>
+<td>long</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td>null</td>
+<td>Hostname of this Singularity instance</td>
+<td>string</td>
+</tr>
+</tbody>
+</table>
+<h4 id="healthchecks-and-new-task-checks">Healthchecks and New Task Checks</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>considerTaskHealthyAfterRunningForSeconds</td>
+<td>5</td>
+<td>Tasks which make it to TASK_RUNNING and run for at least this long (that are not health-checked) are considered healthy</td>
+<td>long</td>
+</tr>
+<tr>
+<td>healthcheckIntervalSeconds</td>
+<td>5</td>
+<td>Default amount of time to wait in between attempting task healthchecks</td>
+<td>int</td>
+</tr>
+<tr>
+<td>healthcheckTimeoutSeconds</td>
+<td>5</td>
+<td>Default amount of time to wait for healthchecks to return before considering them failed</td>
+<td>int</td>
+</tr>
+<tr>
+<td>killAfterTasksDoNotRunDefaultSeconds</td>
+<td>600 (10 minutes)</td>
+<td>Amount of time after which new tasks (that are not part of a deploy) will be killed if they do not enter TASK_RUNNING</td>
+<td>long</td>
+</tr>
+<tr>
+<td>healthcheckMaxRetries</td>
+<td></td>
+<td>Default max number of time to retry a failed healthcheck for a task before considering the task to be unhealthy</td>
+<td>int</td>
+</tr>
+<tr>
+<td>startupDelaySeconds</td>
+<td></td>
+<td>By default, wait this long before starting any healthchecks on a task</td>
+<td>int</td>
+</tr>
+<tr>
+<td>startupTimeoutSeconds</td>
+<td>45</td>
+<td>If a healthcehcked task has not responded with a valid http response in <code>startupTimeoutSeconds</code> consider it unhealthy</td>
+<td>int</td>
+</tr>
+<tr>
+<td>startupIntervalSeconds</td>
+<td>2</td>
+<td>In the startup period (before a valid http response has been received) wait this long between healthcheck attempts</td>
+<td>int</td>
+</tr>
+<tr>
+<td>healthcheckFailureStatusCodes</td>
+<td>[]</td>
+<td>If any of these status codes is received during a healthcheck, immediately consider the task unhealthy, do not retry the check</td>
+<td>List<integer></integer></td>
+</tr>
+</tbody>
+</table>
+<h4 id="deploys">Deploys</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>defaultDeployStepWaitTimeMs</td>
+<td>0</td>
+<td>If using an incremental deploy, wait this long between deploy steps if not specified in the deploy</td>
+<td>int</td>
+</tr>
+<tr>
+<td>defaultDeployMaxTaskRetries</td>
+<td>0</td>
+<td>Allow this many tasks to fail and be retried before failing a new deploy</td>
+<td>int</td>
+</tr>
+</tbody>
+</table>
+<h4 id="limits">Limits</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxDeployIdSize</td>
+<td>50</td>
+<td>Deploy ids over this size will cause deploy requests to fail with 400</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxRequestIdSize</td>
+<td>100</td>
+<td>Request ids over this size will cause new requests to fail with 400</td>
+<td>int</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cooldown">Cooldown</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cooldownAfterFailures</td>
+<td>3</td>
+<td>The number of sequential failures after which a request is placed into system cooldown (a delay is added to newly scheduled tasks) - set to 0 to disable cooldown</td>
+<td>int</td>
+</tr>
+<tr>
+<td>cooldownAfterPctOfInstancesFail</td>
+<td>1.0</td>
+<td>The percentage of instances which must fail at least cooldownAfterFailures times to cause the request to enter system cooldown</td>
+<td>double</td>
+</tr>
+<tr>
+<td>cooldownExpiresAfterMinutes</td>
+<td>15</td>
+<td>The window used to evaluate task failures. Tasks must fail at least cooldownAfterFailures times during this amount of time to enter system cooldown - set to 0 to disable cooldown</td>
+<td>long</td>
+</tr>
+<tr>
+<td>cooldownMinScheduleSeconds</td>
+<td>120</td>
+<td>When a request enters cooldown, new tasks are delayed by at least this long</td>
+<td>long</td>
+</tr>
+</tbody>
+</table>
+<h4 id="load-balancer-api">Load Balancer API</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>loadBalancerQueryParams</td>
+<td>null</td>
+<td>Additional query parameters to pass to the Load Balancer API</td>
+<td>Map<string, string=""></string,></td>
+</tr>
+<tr>
+<td>loadBalancerRequestTimeoutMillis</td>
+<td>2000</td>
+<td>The timeout for making API calls to the Load Balancer API (these will be retried)</td>
+<td>long</td>
+</tr>
+<tr>
+<td>loadBalancerUri</td>
+<td>null</td>
+<td>The URI of the Load Balancer API (Baragon)</td>
+<td>string</td>
+</tr>
+<tr>
+<td>deleteRemovedRequestsFromLoadBalancer</td>
+<td>false</td>
+<td>If a request is removed from Singularity, issue a <code>DELETE</code> to the load balancer for that service</td>
+<td>boolean</td>
+</tr>
+</tbody>
+</table>
+<h4 id="user-interface">User Interface</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sandboxDefaultsToTaskId</td>
+<td>false</td>
+<td>If true, the Singularity API will return the sandbox view of root/taskId when queried without a path (Useful when using SingularityExecutor)</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>enableCorsFilter</td>
+<td>false</td>
+<td>If true, provides a Bundle which will enable CORS</td>
+<td>boolean</td>
+</tr>
+</tbody>
+</table>
+<h3 id="internal-scheduler-configuration">Internal Scheduler Configuration</h3>
+<p>These settings are less likely to be changed, but were included in the configuration instead of hardcoding values. </p>
+<h4 id="pollers">Pollers</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>checkDeploysEverySeconds</td>
+<td>5</td>
+<td>Check the status (health) of pending deploys, promoting them to active or removing them on this interval</td>
+<td>long</td>
+</tr>
+<tr>
+<td>checkNewTasksEverySeconds</td>
+<td>5</td>
+<td>Check the health of new (non-deployed, non-healthchecked) tasks to make sure they eventually get to running on this interval</td>
+<td>long</td>
+</tr>
+<tr>
+<td>checkSchedulerEverySeconds</td>
+<td>5</td>
+<td>Runs scheduler checks (processes decommissions and pending queue) on this interval (these tasks also run when an offer is received)</td>
+<td>long</td>
+</tr>
+<tr>
+<td>checkWebhooksEveryMillis</td>
+<td>10000 (10 seconds)</td>
+<td>Will check for and send new queued webhooks on this interval</td>
+<td>long</td>
+</tr>
+<tr>
+<td>cleanupEverySeconds</td>
+<td>5</td>
+<td>Will cleanup request, task, and other queues on this interval</td>
+<td>long</td>
+</tr>
+<tr>
+<td>persistHistoryEverySeconds</td>
+<td>3600 (1 hour)</td>
+<td>Moves stale historical task data from ZooKeeper into MySQL, setting to 0 will disable history persistence</td>
+<td>long</td>
+</tr>
+<tr>
+<td>saveStateEverySeconds</td>
+<td>60</td>
+<td>State about this Singularity instance is saved (available over API) on this interval</td>
+<td>long</td>
+</tr>
+<tr>
+<td>checkJobsEveryMillis</td>
+<td>600000 (10 mins)</td>
+<td>Check for jobs running longer than the expected time on this interval</td>
+<td>long</td>
+</tr>
+<tr>
+<td>checkExpiringUserActionEveryMillis</td>
+<td>45000</td>
+<td>Check for expiring actions that should be expired on this interval</td>
+<td>long</td>
+</tr>
+</tbody>
+</table>
+<h4 id="mesos">Mesos</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>checkReconcileWhenRunningEveryMillis</td>
+<td>30000 (30 seconds)</td>
+<td>When reconciling tasks, will re-request task updates on this interval until reconciliation finishes</td>
+<td>long</td>
+</tr>
+<tr>
+<td>startNewReconcileEverySeconds</td>
+<td>600 (10 minutes)</td>
+<td>Starts a new reconciliation cycle (if one is not currently running) on this interval (A relatively costly operation that detects updates Mesos failed to deliver)</td>
+<td>long</td>
+</tr>
+<tr>
+<td>askDriverToKillTasksAgainAfterMillis</td>
+<td>300000 (5 minutes)</td>
+<td>Amount of time to wait before instruction mesos to kill a task which has been killed by Singularity but is still running</td>
+<td>long</td>
+</tr>
+</tbody>
+</table>
+<h4 id="thread-pools">Thread Pools</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>checkNewTasksScheduledThreads</td>
+<td>3</td>
+<td>Max number of threads to use to check new tasks</td>
+<td>int</td>
+</tr>
+<tr>
+<td>healthcheckStartThreads</td>
+<td>3</td>
+<td>Max number of threads to use to start healthchecks</td>
+<td>int</td>
+</tr>
+<tr>
+<td>logFetchMaxThreads</td>
+<td>15</td>
+<td>Max number of threads to use to fetch log directories from Mesos REST API</td>
+<td>int</td>
+</tr>
+</tbody>
+</table>
+<h4 id="operational">Operational</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>closeWaitSeconds</td>
+<td>5</td>
+<td>Will wait at least this many seconds when shutting down thread pools</td>
+<td>long</td>
+</tr>
+<tr>
+<td>compressLargeDataObjects</td>
+<td>true</td>
+<td>Will compress larger objects inside of ZooKeeper and MySQL</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>maxHealthcheckResponseBodyBytes</td>
+<td>8192</td>
+<td>Number of bytes to save from healthcheck responses (displayed in UI)</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxQueuedUpdatesPerWebhook</td>
+<td>50</td>
+<td>Max number of updates to queue for a given webhook url, after which some webhooks will not be delivered</td>
+<td>int</td>
+</tr>
+<tr>
+<td>zookeeperAsyncTimeout</td>
+<td>5000</td>
+<td>Milliseconds for ZooKeeper timeout. Calls to ZooKeeper which take over this timeout will cause the operations to fail and Singularity to abort</td>
+<td>long</td>
+</tr>
+<tr>
+<td>cacheStateForMillis</td>
+<td>30000 (30 seconds)</td>
+<td>Amount of time to cache internal state for when requested over API</td>
+<td>long</td>
+</tr>
+<tr>
+<td>sandboxHttpTimeoutMillis</td>
+<td>5000 (5 seconds)</td>
+<td>Sandbox HTTP calls will timeout after this amount of time (fetching logs for emails / UI)</td>
+</tr>
+<tr>
+<td>newTaskCheckerBaseDelaySeconds</td>
+<td>1</td>
+<td>Added to the the amount of deploy to wait before checking a new task</td>
+<td>long</td>
+</tr>
+<tr>
+<td>allowTestResourceCalls</td>
+<td>false</td>
+<td>If true, allows calls to be made to the test resource, which can test internal methods</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>deleteDeploysFromZkWhenNoDatabaseAfterHours</td>
+<td>336 (14 days)</td>
+<td>Delete deploys from zk when they are older than this if we are not using a database</td>
+<td>long</td>
+</tr>
+<tr>
+<td>maxStaleDeploysPerRequestInZkWhenNoDatabase</td>
+<td>infinite (disabled)</td>
+<td>Delete oldest deploys from zk when there are more than this number for a given request, if we&apos;re not already persisting them to a database</td>
+<td>int</td>
+</tr>
+<tr>
+<td>deleteStaleRequestsFromZkWhenNoDatabaseAfterHours</td>
+<td>336 (14 days)</td>
+<td>Delete stale requests after this amount of time if we are not using a database</td>
+<td>long</td>
+</tr>
+<tr>
+<td>maxRequestsWithHistoryInZkWhenNoDatabase</td>
+<td>infinite (disabled)</td>
+<td>Delete history of oldest requests from zk when there are more than this number of requests, if we&apos;re not already persisting them to a database</td>
+<td>int</td>
+</tr>
+<tr>
+<td>deleteTasksFromZkWhenNoDatabaseAfterHours</td>
+<td>168 (7 days)</td>
+<td>Delete old tasks from zk after this amount of time if we are not using a database</td>
+<td>long</td>
+</tr>
+<tr>
+<td>maxStaleTasksPerRequestInZkWhenNoDatabase</td>
+<td>infinite (disabled)</td>
+<td>Delete oldest tasks from zk when there are more than this number for a given request, if we&apos;re not already persisting them to a database</td>
+<td>int</td>
+</tr>
+<tr>
+<td>taskPersistAfterStartupBufferMillis</td>
+<td>60000ms (1 min)</td>
+<td>Wait this long after a task starts before persisting it in history</td>
+<td>long</td>
+</tr>
+<tr>
+<td>deleteDeadSlavesAfterHours</td>
+<td>168 (7 days)</td>
+<td>Remove dead slaves from the list after this amount of time</td>
+<td>long</td>
+</tr>
+<tr>
+<td>deleteUndeliverableWebhooksAfterHours</td>
+<td>168 (7 days)</td>
+<td>Delete (and stop retrying) failed webhooks after this amount of time</td>
+<td>long</td>
+</tr>
+<tr>
+<td>waitForListeners</td>
+<td>true</td>
+<td>If true, the event system waits for all listeners having processed an event.</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>warnIfScheduledJobIsRunningForAtLeastMillis</td>
+<td>86400000 (1 day)</td>
+<td>Warn if a scheduled job has been running for this long</td>
+<td>long</td>
+</tr>
+<tr>
+<td>warnIfScheduledJobIsRunningPastNextRunPct</td>
+<td>200</td>
+<td>Warn if a scheduled job has run this much past its next scheduled run time (e.g. 200 =&gt; ran through next two run times)</td>
+<td>int</td>
+</tr>
+<tr>
+<td>pendingDeployHoldTaskDuringDecommissionMillis</td>
+<td>600000ms (10 minutes)</td>
+<td>Don&apos;t kill tasks on a decommissioning slave that are part of a pending deploy for this amount of time to allow the deploy to complete</td>
+<td>long</td>
+</tr>
+<tr>
+<td>defaultBounceExpirationMinutes</td>
+<td>60</td>
+<td>Expire a bounce after this many minutes if an expiration is not provided in the request to bounce</td>
+<td>int</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mesos-configuration">Mesos Configuration</h2>
+<p>These settings should live under the &quot;mesos&quot; field inside the root configuration.</p>
+<h4 id="framework">Framework</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>master</td>
+<td>null</td>
+<td></td>
+<td>string</td>
+</tr>
+<tr>
+<td>frameworkName</td>
+<td>null</td>
+<td></td>
+<td>string</td>
+</tr>
+<tr>
+<td>frameworkId</td>
+<td>null</td>
+<td></td>
+<td>string</td>
+</tr>
+<tr>
+<td>frameworkFailoverTimeout</td>
+<td>0.0</td>
+<td></td>
+<td>double</td>
+</tr>
+<tr>
+<td>frameworkRole</td>
+<td>null</td>
+<td>Specify framework&apos;s desired role when Singularity registers with the master</td>
+<td>String</td>
+</tr>
+<tr>
+<td>checkpoint</td>
+<td>true</td>
+<td></td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>credentialPrincipal</td>
+<td></td>
+<td>Enable framework auth by setting both this and credentialSecret</td>
+<td>String</td>
+</tr>
+<tr>
+<td>credentialSecret</td>
+<td></td>
+<td>Enable framework auth by setting both this and credentialPrincipal</td>
+<td>String</td>
+</tr>
+</tbody>
+</table>
+<h4 id="resource-limits">Resource Limits</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>defaultCpus</td>
+<td>1</td>
+<td>Number of CPUs to request for a task if none are specified</td>
+<td>int</td>
+</tr>
+<tr>
+<td>defaultMemory</td>
+<td>64</td>
+<td>MB of memory to request for a task if none is specified</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxNumInstancesPerRequest</td>
+<td>25</td>
+<td>Max instances (tasks) to allow for a request (requests using over this will return a 400)</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxNumCpusPerInstance</td>
+<td>50</td>
+<td>Max number of CPUs allowed on a given task</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxNumCpusPerRequest</td>
+<td>900</td>
+<td>Max number of CPUs allowed for a given request (cpus per task * task instance)</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxMemoryMbPerInstance</td>
+<td>24000</td>
+<td>Max MB of memory allowed on a given task</td>
+<td>int</td>
+</tr>
+<tr>
+<td>maxMemoryMbPerRequest</td>
+<td>450000</td>
+<td>Max MB of memory allowed for a given request (memoryMb per task * task instances)</td>
+<td>int</td>
+</tr>
+</tbody>
+</table>
+<h4 id="racks">Racks</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rackIdAttributeKey</td>
+<td>rackid</td>
+<td>The Mesos slave attribute to denote a rack</td>
+<td>string</td>
+</tr>
+<tr>
+<td>defaultRackId</td>
+<td>DEFAULT</td>
+<td>The rackId to assign to a slave if no rackId attribute value is present</td>
+<td>string</td>
+</tr>
+</tbody>
+</table>
+<h4 id="slaves">Slaves</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>slaveHttpPort</td>
+<td>5051</td>
+<td>The port to talk to slaves on</td>
+<td>int</td>
+</tr>
+<tr>
+<td>slaveHttpsPort</td>
+<td>absent</td>
+<td>The HTTPS port to talk to slaves on</td>
+<td>Integer (Optional)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="database">Database</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>database</td>
+<td></td>
+<td>The database connection for SingularityService follows the <a href="http://www.dropwizard.io/0.7.0/dropwizard-db/apidocs/io/dropwizard/db/DataSourceFactory.html" target="_blank">dropwizard DataSourceFactory format</a></td>
+<td><a href="http://www.dropwizard.io/0.7.0/dropwizard-db/apidocs/io/dropwizard/db/DataSourceFactory.html" target="_blank">DataSourceFactory</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="network-configuration">Network Configuration</h2>
+<p>These settings should live under the &quot;network&quot; field of the root configuration.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>defaultPortMapping</td>
+<td>false</td>
+<td>If no port mapping is provided, map all Mesos-provided ports to the host</td>
+<td>boolean</td>
+</tr>
+</tbody>
+</table>
+<h4 id="history-purging">History Purging</h4>
+<p>These settings live under the &quot;historyPuring&quot; field in the root configuration</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>deleteTaskHistoryAfterDays</td>
+<td>365</td>
+<td>Purge tasks older than this many days</td>
+<td>int</td>
+</tr>
+<tr>
+<td>deleteTaskHistoryAfterTasksPerRequest</td>
+<td>10000</td>
+<td>Purge oldest tasks when there are more than this many associated with a single request</td>
+<td>int</td>
+</tr>
+<tr>
+<td>deleteTaskHistoryBytesInsteadOfEntireRow</td>
+<td>true</td>
+<td>Only delete the taskHistoryBytes instead of the entire record of the task (e.g. to save space)</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>checkTaskHistoryEveryHours</td>
+<td>24</td>
+<td>Run the purge every x hours</td>
+<td>int</td>
+</tr>
+<tr>
+<td>enabled</td>
+<td>false</td>
+<td>Should we run the database purge</td>
+<td>boolean</td>
+</tr>
+</tbody>
+</table>
+<h2 id="s3">S3</h2>
+<p>These settings live under the &quot;s3&quot; field in the root configuration. If using the SingularityS3Uploader, this section will need to be provided in order to view lists of and download s3 logs from the SingularityUI.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxS3Thread</td>
+<td>3</td>
+<td>Max threads to run for fetching logs from s3</td>
+<td>int</td>
+</tr>
+<tr>
+<td>waitForS3ListSeconds</td>
+<td>5</td>
+<td>Timeout in seconds for fetching list of s3 logs</td>
+<td>int</td>
+</tr>
+<tr>
+<td>waitForS3LinksSeconds</td>
+<td>1</td>
+<td>Timeout in seconds for creating new s3 links</td>
+<td>int</td>
+</tr>
+<tr>
+<td>expireS3LinksAfterMillis</td>
+<td>86400000 (1 day)</td>
+<td>Expire generated s3 log links after this amount of time</td>
+<td>long</td>
+</tr>
+<tr>
+<td>s3Bucket</td>
+<td></td>
+<td>S3 bucket to search for logs</td>
+<td>String</td>
+</tr>
+<tr>
+<td>groupOverrides</td>
+<td></td>
+<td>Extra s3 configurations provided such that individual requests may use separate s3 buckets. Each S3GroupOverrideConfiguration has a name specified by the Map key and consists of an s3Bueckt, s3AccessKey, and s3SecretKey</td>
+<td>Map<string, s3groupoverrideconfiguration=""></string,></td>
+</tr>
+<tr>
+<td>s3KeyFormat</td>
+<td></td>
+<td>Search for logs with keys in this format, should be the same as the key format set in the SingularityS3Uploader</td>
+<td>String</td>
+</tr>
+<tr>
+<td>s3AccessKey</td>
+<td></td>
+<td>aws access key for the specified s3 bucket</td>
+<td>String</td>
+</tr>
+<tr>
+<td>s3SecretKey</td>
+<td></td>
+<td>aws secret key for the specified s3 bucket</td>
+<td>String</td>
+</tr>
+<tr>
+<td>missingTaskDefaultS3SearchPeriodMillis</td>
+<td>259200000ms (3 days)</td>
+<td>Search over this many days for s3 logs when no task data is found</td>
+<td>long</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sentry">Sentry</h2>
+<p>These settings live under the &quot;sentry&quot; field in the root config and enable Singularity error reporting to <a href="https://getsentry.com/welcome/" target="_blank">sentry</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dsn</td>
+<td></td>
+<td>Sentry DSN (Data Source Name)</td>
+<td>String</td>
+</tr>
+<tr>
+<td>prefix</td>
+<td>&quot;&quot;</td>
+<td>Prefix string for event culprit naming and messages</td>
+<td>String</td>
+</tr>
+</tbody>
+</table>
+<h2 id="smtp">SMTP</h2>
+<p>These settings live under the &quot;smtp&quot; field in the root config.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>username</td>
+<td></td>
+<td>smtp username</td>
+<td>String</td>
+</tr>
+<tr>
+<td>password</td>
+<td></td>
+<td>smtp password</td>
+<td>String</td>
+</tr>
+<tr>
+<td>taskLogLength</td>
+<td>512</td>
+<td>Send this many lines of a tasks log in emails</td>
+<td>int</td>
+</tr>
+<tr>
+<td>host</td>
+<td>localhost</td>
+<td>Host for smtp session</td>
+<td>String</td>
+</tr>
+<tr>
+<td>port</td>
+<td>25</td>
+<td>Port for smtp session</td>
+<td>int</td>
+</tr>
+<tr>
+<td>from</td>
+<td>&quot;singularity-no-reply@example.com&quot;</td>
+<td>Send emails form this address</td>
+<td>String</td>
+</tr>
+<tr>
+<td>mailMaxThreads</td>
+<td>3</td>
+<td>max threads for email sending process</td>
+<td>int</td>
+</tr>
+<tr>
+<td>admins</td>
+<td>[]</td>
+<td>List of admin user emails</td>
+<td>List\<string\></string\></td>
+</tr>
+<tr>
+<td>rateLimitAfterNotifications</td>
+<td>5</td>
+<td>Rate limit email sending after this many notifications have been sent in <code>rateLimitPeriodMillis</code></td>
+<td>int</td>
+</tr>
+<tr>
+<td>rateLimitPeriodMillis</td>
+<td>60000 (10 mins)</td>
+<td>time period for <code>rateLimitAfterNotifications</code></td>
+<td>long</td>
+</tr>
+<tr>
+<td>rateLimitCooldownMillis</td>
+<td>3600000 (1 hour)</td>
+<td>Cooldown time before rate limiting is removed</td>
+<td>long</td>
+</tr>
+<tr>
+<td>taskEmailTailFiles</td>
+<td>[stdout, stderr]</td>
+<td>Send the tail of these files in messages about tasks</td>
+<td>List\<string\></string\></td>
+</tr>
+<tr>
+<td>emails</td>
+<td>See below</td>
+<td>See below</td>
+<td>Map\<emailtype, list\<emaildestination\="">&gt;</emailtype,></td>
+</tr>
+</tbody>
+</table>
+<h4 id="emails-list">Emails List</h4>
+<p>The emails list determines what emails to send notifications to and for what events. You can specify a map of <a href="https://github.com/HubSpot/Singularity/blob/master/SingularityService/src/main/java/com/hubspot/singularity/config/EmailConfigurationEnums.java" target="_blank"><code>EmailType</code></a> to a list of <a href="https://github.com/HubSpot/Singularity/blob/master/SingularityService/src/main/java/com/hubspot/singularity/config/EmailConfigurationEnums.java" target="_blank"><code>EmailDestination</code>s</a></p>
+<p><code>EmailType</code> corressponds to different events that could trigger emails such as <code>TASK_LOST</code> or <code>TASK_FAILED</code></p>
+<p><code>EmailDestination</code> corressponds to one of <code>OWNERS</code> (as listed on the Singularity Request), <code>ACTION_TAKER</code> (user who triggered the action causing the email update), or <code>ADMINS</code> (specified in config as seen above)</p>
+<h2 id="ui-configuration">UI Configuration</h2>
+<p>These settings live under the &quot;ui&quot; field in the root config.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>&quot;Singularity&quot;</td>
+<td>Title shown in the left of the menu bar in ui</td>
+<td>String</td>
+</tr>
+<tr>
+<td>navColor</td>
+<td>&quot;&quot;</td>
+<td>Color for nav bar</td>
+<td>String</td>
+</tr>
+<tr>
+<td>baseUrl</td>
+<td></td>
+<td>Base url where the ui will be hosted (e.g. <a href="http://localhost:7099/singularity" target="_blank">http://localhost:7099/singularity</a>)</td>
+<td>String</td>
+</tr>
+<tr>
+<td>runningTaskLogPath</td>
+<td>stdout</td>
+<td>Generate link to this log for running tasks on the request page</td>
+<td>String</td>
+</tr>
+<tr>
+<td>finishedTaskLogPath</td>
+<td>stdout</td>
+<td>Generate link to this log for finished tasks on the request page</td>
+<td>String</td>
+</tr>
+<tr>
+<td>hideNewDeployButton</td>
+<td>false</td>
+<td>Don&apos;t show the &apos;New Deploy&apos; button</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>hideNewRequestButton</td>
+<td>false</td>
+<td>Don&apos;t show the &apos;New Request&apos; button</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>rootUrlMode</td>
+<td>INDEX_CATCHALL</td>
+<td><code>INDEX_CATCHALL</code>: UI is served off of / using a catchall resource. <code>UI_REDIRECT</code>: UI is served off of /ui, path and index redirects there. <code>DISABLED</code>: UI is served off of /ui and the root resource is not served at all</td>
+<td>enum / String <code>INDEX_CATCHALL</code>, <code>UI_REDIRECT</code>, <code>DISABLED</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="zookeeper">Zookeeper</h2>
+<p>These settings live under the &quot;zookeeper&quot; field in the root config.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>quorum</td>
+<td></td>
+<td>Comma separated host:port list of zk hosts</td>
+<td>String</td>
+</tr>
+<tr>
+<td>sessionTimeoutMillis</td>
+<td>600_000</td>
+<td>zookeeper session timeout</td>
+<td>int</td>
+</tr>
+<tr>
+<td>connectTimeoutMillis</td>
+<td>60_000</td>
+<td>Connect to zookeeper timeout</td>
+<td>int</td>
+</tr>
+<tr>
+<td>retryBaseSleepTimeMilliseconds</td>
+<td>1_000</td>
+<td>Wait time between zookeeper connection retries</td>
+<td>int</td>
+</tr>
+<tr>
+<td>retryMaxTries</td>
+<td>3</td>
+<td>Max retries to obtain a zookeeper connection before aborting</td>
+<td>int</td>
+</tr>
+<tr>
+<td>zkNamespace</td>
+<td></td>
+<td>Path under which to store Singularity data in zk (e.g. /singularity)</td>
+<td>String</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="container-options.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Container Options">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Configuration","level":"1.7.1","depth":2,"next":{"title":"Container Options","level":"1.7.2","depth":2,"path":"Docs/reference/container-options.md","ref":"Docs/reference/container-options.md","articles":[]},"previous":{"title":"Reference","level":"1.7","depth":1,"ref":"","articles":[{"title":"Configuration","level":"1.7.1","depth":2,"path":"Docs/reference/configuration.md","ref":"Docs/reference/configuration.md","articles":[]},{"title":"Container Options","level":"1.7.2","depth":2,"path":"Docs/reference/container-options.md","ref":"Docs/reference/container-options.md","articles":[]},{"title":"Database","level":"1.7.3","depth":2,"path":"Docs/reference/database.md","ref":"Docs/reference/database.md","articles":[]},{"title":"Webhooks","level":"1.7.4","depth":2,"path":"Docs/reference/webhooks.md","ref":"Docs/reference/webhooks.md","articles":[]},{"title":"Slave Extras","level":"1.7.5","depth":2,"path":"Docs/reference/slave-extras.md","ref":"Docs/reference/slave-extras.md","articles":[]},{"title":"Deploy Defaults","level":"1.7.6","depth":2,"path":"Docs/reference/deploy-defaults.md","ref":"Docs/reference/deploy-defaults.md","articles":[]},{"title":"Health Checks","level":"1.7.7","depth":2,"path":"Docs/reference/healthchecks.md","ref":"Docs/reference/healthchecks.md","articles":[]},{"title":"API","level":"1.7.8","depth":2,"path":"Docs/reference/apidocs/api-index.md","ref":"Docs/reference/apidocs/api-index.md","articles":[{"title":"/api/sandbox","level":"1.7.8.1","depth":3,"path":"Docs/reference/apidocs/api-sandbox.md","ref":"Docs/reference/apidocs/api-sandbox.md","articles":[]},{"title":"/api/slaves","level":"1.7.8.2","depth":3,"path":"Docs/reference/apidocs/api-slaves.md","ref":"Docs/reference/apidocs/api-slaves.md","articles":[]},{"title":"/api/history","level":"1.7.8.3","depth":3,"path":"Docs/reference/apidocs/api-history.md","ref":"Docs/reference/apidocs/api-history.md","articles":[]},{"title":"/api/state","level":"1.7.8.4","depth":3,"path":"Docs/reference/apidocs/api-state.md","ref":"Docs/reference/apidocs/api-state.md","articles":[]},{"title":"/api/logs","level":"1.7.8.5","depth":3,"path":"Docs/reference/apidocs/api-logs.md","ref":"Docs/reference/apidocs/api-logs.md","articles":[]},{"title":"/api/tasks","level":"1.7.8.6","depth":3,"path":"Docs/reference/apidocs/api-tasks.md","ref":"Docs/reference/apidocs/api-tasks.md","articles":[]},{"title":"/api/test","level":"1.7.8.7","depth":3,"path":"Docs/reference/apidocs/api-test.md","ref":"Docs/reference/apidocs/api-test.md","articles":[]},{"title":"/api/webhooks","level":"1.7.8.8","depth":3,"path":"Docs/reference/apidocs/api-webhooks.md","ref":"Docs/reference/apidocs/api-webhooks.md","articles":[]},{"title":"/api/racks","level":"1.7.8.9","depth":3,"path":"Docs/reference/apidocs/api-racks.md","ref":"Docs/reference/apidocs/api-racks.md","articles":[]},{"title":"/api/requests","level":"1.7.8.10","depth":3,"path":"Docs/reference/apidocs/api-requests.md","ref":"Docs/reference/apidocs/api-requests.md","articles":[]},{"title":"/api/groups","level":"1.7.8.11","depth":3,"path":"Docs/reference/apidocs/api-groups.md","ref":"Docs/reference/apidocs/api-groups.md","articles":[]},{"title":"/api/deploys","level":"1.7.8.12","depth":3,"path":"Docs/reference/apidocs/api-deploys.md","ref":"Docs/reference/apidocs/api-deploys.md","articles":[]},{"title":"/api/disasters","level":"1.7.8.13","depth":3,"path":"Docs/reference/apidocs/api-disasters.md","ref":"Docs/reference/apidocs/api-disasters.md","articles":[]},{"title":"/api/priority","level":"1.7.8.14","depth":3,"path":"Docs/reference/apidocs/api-priority.md","ref":"Docs/reference/apidocs/api-priority.md","articles":[]},{"title":"Models","level":"1.7.8.15","depth":3,"path":"Docs/reference/apidocs/models.md","ref":"Docs/reference/apidocs/models.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["github","-sharing","-livereload","-highlight","copy-code-button"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/HubSpot/Singularity"},"copy-code-button":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"fontsettings":{"family":"sans","size":2,"theme":"white"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"releases":["0.14.0","0.13.0","0.12.0","0.11.0","0.10.1","0.10.0","0.9.0","0.8.0","0.7.1","0.7.0","0.6.2","0.6.1","0.6.0","0.5.0","0.4.11","0.4.10","0.4.9","0.4.8","0.4.7","0.4.6","0.4.5"]},"title":"Singularity","links":{"home":null,"about":false,"issues":"https://github.com/HubSpot/Singularity/issues","contribute":"https://github.com/HubSpot/Singularity"},"gitbook":"*"},"file":{"path":"Docs/reference/configuration.md","mtime":"2017-02-08T15:59:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-13T18:37:17.759Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
